@@ -1,0 +1,193 @@
+/* NavBar Harding and Logo */
+.Navbar-Component img
+{
+    position: relative;
+    height: 74px;
+    right: 26px;
+    top: 6px;
+}
+.Navbar-Component div{
+    font-size: 35px;
+    position: relative;
+    left: 97px;
+    bottom:57px;
+    font-weight: 900;
+    background: linear-gradient(
+    to right, 
+    hsl(127 100% 30%), 
+    hsl(296 100% 59%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+/*Home Page*/
+
+.Heading
+{
+  font-size: 35px;
+  font-weight: bolder;
+  font-style: normal;
+  color: #0022a5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+}
+.content
+{
+  display: flex;
+  justify-content: inline;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.content-heading-left
+{
+  font-size: 19px;
+  font-weight: 500;
+  color: #000000;
+  margin-left: 20px;
+  text-align: justify;
+  line-height: 36px;
+}
+
+.content-heading-left-2
+{
+  padding-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 19px;
+  font-weight: 500;
+  color: #000000;
+  text-align: justify;
+  line-height: 35px;
+}
+
+.Content-Question
+{
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Content-Answer
+{
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  text-align: justify;
+  line-height: 35px;
+}
+
+.Heading-2
+{
+  font-size: 30px;
+  font-weight: bolder;
+  font-style: normal;
+  color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+}
+
+.s-table
+{
+  border: 2px solid #000000;
+  margin-left: 100px;
+}
+
+th{
+  border: 1px solid #c6c7cc;
+  padding: 5px 10px;
+    font-weight: bold;
+  font-size: 20px;
+}
+
+td{
+  border: 1px solid #c6c7cc;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+table tr .s-topic
+{
+  text-align: left;
+  width: 150px;
+}
+table tr .s-details
+{
+  text-align: left;
+  width: 300px;
+}
+table tr td 
+{
+  font-size: 20px;
+  font-weight: 100;
+}
+
+table tr td ul{
+  margin-left: 20px;
+  list-style:'-  ';
+}
+/*Download Page*/
+
+.box1 
+{
+  margin-left: 530px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  height: 300px;
+  border: 2px solid #000000;
+  width: 400px;
+  border-radius: 15px;
+}
+
+.rar-logo
+{
+  position: relative;
+  left: 174px;
+  bottom:25px;
+}
+
+.box1 .name
+{
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+.download-button-1 button
+{
+  position: relative;
+  left:95px;
+  font-size: 30px;
+  padding:15px 20px;
+  background: linear-gradient(
+    to right, 
+    hsla(125, 100%, 45%, 1), 
+    hsla(125, 100%, 35%, 1)
+  );
+  font-weight: bolder;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.a-content
+{
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 20px;
+  color: #6201b1;
+}
+
+.s-table .a-link
+{
+  width: 200px;
+}

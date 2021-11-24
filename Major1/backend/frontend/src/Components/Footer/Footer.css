@@ -1,0 +1,58 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-weight: bolder;
+  }
+  
+
+  .footer-info  {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-info-left, .footer-info-center, .footer-info-right {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 30%;
+  }
+  
+  .footer-info__name, .footer-info__email, .footer-info__number {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  
+  .footer-info__name, .footer-info__returns {
+    text-align: start;
+    font-size: 12px;
+  }
+  
+  .footer-info__email, .footer-info__terms {
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .footer-info__number, .footer-info__contact {
+    text-align: end;
+    font-size: 12px;
+  }
+  
+  
+  .footer-seperator {
+    flex-grow: 1;
+    border: none;
+    height: 3px;
+    background:linear-gradient(
+        to right, 
+        hsl(127 100% 30%), 
+        hsl(296 100% 59%)
+      );
+    width: 100%;
+  }
+  
+  
