@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css"
 import Data from "./sample.json"
+import AD from "./components/adblock"
 
 function App() {
 	return (
@@ -9,7 +10,7 @@ function App() {
 				{
 					Data.map(post => {
 						return(
-							<>
+							<>as
 								<table>
 									<tr>
 										<th>Process Name</th>
@@ -27,6 +28,7 @@ function App() {
 								<form action="/simple_function">
 									<button onClick={() => window.location.reload(false)}>Click to reload!</button>
 								</form>
+								<AD></AD>
 							</>
 						)
 					})
